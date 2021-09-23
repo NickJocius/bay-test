@@ -1,0 +1,37 @@
+.ContactForm {
+  min-height: 1000px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.ContactForm input {
+  height: 5rem;
+  border-color: #d9d9d9;
+}
+
+#pop {
+  min-height: 100%;
+  background-color: rgba(82, 28, 109, 0.233);
+  min-width: 100%;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px !important;
+  width: 80%;
+}
+
+@media screen and (max-width: 986px) {
+  .ContactForm {
+    min-width: 100%;
+    margin: 0 !important;
+  }
+}
